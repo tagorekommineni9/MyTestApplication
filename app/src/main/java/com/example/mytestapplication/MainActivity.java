@@ -3,6 +3,7 @@ package com.example.mytestapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,5 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //Test1
         //Test2
+
+        ImageView imageView = findViewById(R.id.iv2);
+        imageView.setImageResource(R.drawable.ic_assignment);
     }
 }

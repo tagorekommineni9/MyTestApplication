@@ -9,9 +9,11 @@
 
     <ImageView
         android:id="@+id/iv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_width="89dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:tint="#E91E63"
+        app:srcCompat="@drawable/ic_assignment" />
 
     <TextView
         android:id="@+id/tv1"
@@ -21,8 +23,8 @@
         android:layout_gravity="center"/>
     <ImageView
         android:id="@+id/iv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="89dp"
+        android:layout_height="92dp"
         android:layout_gravity="center"/>
     <TextView
         android:id="@+id/tv2"
